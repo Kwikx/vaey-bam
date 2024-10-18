@@ -38,14 +38,14 @@ Clear-Host
 
 Write-Host "";
 Write-Host "";
-Write-Host -ForegroundColor Aqua "██████████████████████████████████████████████████████████████████████████";
-Write-Host -ForegroundColor Aqua "█▄─█─▄██▀▄─██▄─▄▄─█▄─█─▄███▄─▀█▄─▄█▄─▄▄─█─▄─▄─█▄─█▀▀▀█─▄█─▄▄─█▄─▄▄▀█▄─█─▄█";
-Write-Host -ForegroundColor Aqua "██▄▀▄███─▀─███─▄█▀██▄─▄█████─█▄▀─███─▄█▀███─████─█─█─█─██─██─██─▄─▄██─▄▀██";
-Write-Host -ForegroundColor Aqua "▀▀▀▄▀▀▀▄▄▀▄▄▀▄▄▄▄▄▀▀▄▄▄▀▀▀▀▄▄▄▀▀▄▄▀▄▄▄▄▄▀▀▄▄▄▀▀▀▄▄▄▀▄▄▄▀▀▄▄▄▄▀▄▄▀▄▄▀▄▄▀▄▄▀";
-Write-Host -ForegroundColor Aqua "";
+Write-Host -ForegroundColor Blue "██████████████████████████████████████████████████████████████████████████";
+Write-Host -ForegroundColor Blue "█▄─█─▄██▀▄─██▄─▄▄─█▄─█─▄███▄─▀█▄─▄█▄─▄▄─█─▄─▄─█▄─█▀▀▀█─▄█─▄▄─█▄─▄▄▀█▄─█─▄█";
+Write-Host -ForegroundColor Blue "██▄▀▄███─▀─███─▄█▀██▄─▄█████─█▄▀─███─▄█▀███─████─█─█─█─██─██─██─▄─▄██─▄▀██";
+Write-Host -ForegroundColor Blue "▀▀▀▄▀▀▀▄▄▀▄▄▀▄▄▄▄▄▀▀▄▄▄▀▀▀▀▄▄▄▀▀▄▄▀▄▄▄▄▄▀▀▄▄▄▀▀▀▄▄▄▀▄▄▄▀▀▄▄▄▄▀▄▄▀▄▄▀▄▄▀▄▄▀";
+Write-Host -ForegroundColor Blue "";
 Write-Host "";
-Write-Host -ForegroundColor Blue "Made By PureIntent | To RedLotus Screensharing " -NoNewLine
-Write-Host -ForegroundColor Aqua "discord.gg/vaey || Official BAM Entries from Vaey Network";
+Write-Host -ForegroundColor White "Made By PureIntent | To RedLotus Screensharing " -NoNewLine
+Write-Host -ForegroundColor White "discord.gg/vaey || Official BAM Entries from Vaey Network";
 Write-Host "";
 
 function Test-Admin {;$currentUser = New-Object Security.Principal.WindowsPrincipal $([Security.Principal.WindowsIdentity]::GetCurrent());$currentUser.IsInRole([Security.Principal.WindowsBuiltinRole]::Administrator);}
